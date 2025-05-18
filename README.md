@@ -1,11 +1,5 @@
 <h2>LoRA-Based Fine Tuning of BART-small for News Article Summarization</h2>
-<p>This repository holds the training script for training BART-small for abstractively summarizing news text in partial fulfillment of the requirements in the course Machine Learning 2. A more comprehensive reading on the goals, methods, and conclusions of the project can be found in the project paper.</p>
-
-<h2>📌Directory</h2>
-<ul>
-  <li>Project Paper</li>
-  <li>Training Script</li> 
-</ul>
+<p>This repository holds the training script for training BART-small for abstractively summarizing news text in partial fulfillment of the requirements in the course Machine Learning 2. A</p>
 
 <h2>📃Introduction</h2>
 <p>News summarization is an application of automatic summarization in Natural Language Processing that generates a shorter version of a full news article while preserving its most important information. Key challenges in abstractive summarization, a branch of text summarization that generates new sentences to summarize the original text, include inadequate representation of meaning, maintaining factual consistency, and addressing temporal and causal reasoning. Despite progress, models still face difficulties in capturing semantic nuances and striking the right balance between completeness and conciseness.</p>
@@ -29,8 +23,16 @@
       <p>Epochs = 20</p>
       <p>Training Steps = Epoch * tokenized_dataset</p>
       <p>Warmup Steps = 0.1 * Training Steps</p>
+      <p>Per Device Train Batch Size = 8</p>
+      <p>Per Device Eval Batch Size = 10</p>
+      <p>Learning Rate = </p>
     <li><b>Final Settings</b></li>
-      <p></p>
+      <p>Epochs = 20</p>
+      <p>Training Steps = Epoch * tokenized_dataset</p>
+      <p>Warmup Steps = 0.1 * Training Steps</p>
+      <p>Per Device Train Batch Size = 8</p>
+      <p>Per Device Eval Batch Size = 10</p>
+      <p>Learning Rate = </p>
   </ul>
 
 <h2>📝Evaluation and Results</h2>
