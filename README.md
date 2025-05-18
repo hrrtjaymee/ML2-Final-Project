@@ -24,11 +24,13 @@
   <p>1. Tokenization on input and output fields (max_length = 512 for both fields)</p>
   <p>2. Applying DataCollatorForSeq2Seq to pad sequences</p>
 <h4>Fine-tuning with LoRA and Adam Optimizer</h4>
-  Initial run through on the model:
-  <p>Epochs = 20</p>
-  <p>Training Steps = Epoch * tokenized_dataset</p>
-  <p>Warmup Steps = 0.1 * Training Steps</p>
+  <ul>
+    <li><b>nitial Settings</b></li>
+      <p>Epochs = 20</p>
+      <p>Training Steps = Epoch * tokenized_dataset</p>
+      <p>Warmup Steps = 0.1 * Training Steps</p>
+    <li><b>Final Settings</b></li>
+      <p></p>
+  </ul>
 
-<h4>Final Settings</h4>
-<p></p>
 <h2>📝Evaluation and Results</h2>
