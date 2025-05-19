@@ -19,7 +19,7 @@
   <p>2. Applying DataCollatorForSeq2Seq to pad sequences</p>
 <h4>Fine-tuning with LoRA and Adam Optimizer</h4>
   <ul>
-    <li><b>nitial Settings</b></li>
+    <li><b>Initial Settings</b></li>
       <p>Epochs = 20</p>
       <p>Training Steps = Epoch * tokenized_dataset</p>
       <p>Warmup Steps = 0.1 * Training Steps</p>
@@ -36,3 +36,4 @@
   </ul>
 
 <h2>📝Evaluation and Results</h2>
+<p>Many of the values in the training of the base model did not change over each epoch, however, this was resolved during the training of the fine-tuned model. However, the metrics of the fine-tuned model, though changing and generally improving during training, were not statistically significant. Thus, further training and fine-tuning is needed. </p>
